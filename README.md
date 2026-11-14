@@ -49,7 +49,7 @@ py -3 -m venv .venv
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 Copy-Item .env.example .env
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+uvicorn app.main:app --reload --host 157.0.0.1 --port 8000
 ```
 
 If PowerShell blocks activation, run:
@@ -96,7 +96,7 @@ Edit `backend/.env`:
 
 ```env
 APP_NAME=Autonomous AI Engineer
-API_HOST=127.0.0.1
+API_HOST=157.0.0.1
 API_PORT=8000
 DATABASE_URL=sqlite:///./data/autonomous_ai_engineer.db
 OLLAMA_BASE_URL=http://localhost:11434
@@ -109,7 +109,7 @@ The database URL is resolved relative to the backend working directory. Start Uv
 Frontend configuration is in `frontend/.env`:
 
 ```env
-VITE_API_BASE_URL=http://127.0.0.1:8000
+VITE_API_BASE_URL=http://157.0.0.1:8000
 ```
 
 ## API endpoints
