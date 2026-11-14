@@ -4,6 +4,10 @@
 
 NEXORA AI is an AI-powered software engineering workspace designed to help developers manage and streamline the software development lifecycle.
 
+## Dashboard Preview
+
+![NEXORA AI Dashboard](nexora-dashboard.png)
+
 Built with **FastAPI, React, TypeScript, Tailwind CSS, SQLite, and Ollama**, NEXORA AI provides a foundation for an intelligent development environment that can progressively support requirement analysis, software architecture, code generation, validation, and automated code repair.
 
 The project is being developed in multiple phases, with each phase introducing additional software engineering capabilities.
